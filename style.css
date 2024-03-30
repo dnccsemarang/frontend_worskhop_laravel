@@ -1,0 +1,94 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+     width: 100%;
+     min-height: 100vh;
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+     padding: 10px 0;
+}
+
+.todo-app {
+     width: 100%;
+     max-width: 540px;
+     margin: 100px auto 20px;
+     background: #fff;
+     padding: 40px 30px 70px;
+     border-radius: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app h2 {
+     font-size: 24px;
+     color: #333;
+     margin-bottom: 20px;
+}
+
+.todo-app h2 img {
+     width: 30px;
+     margin-left: 10px;
+}
+
+.row {
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     background: #edeef0;
+     border-radius: 30px;
+     padding-left: 20px;
+     justify-content: space-between;
+
+}
+
+input {
+     border: none;
+     outline: none;
+     background: none;
+     font-size: 18px;
+     color: #333;
+     padding: 10px 0;
+     width: 100%;
+}
+
+button {
+     background: #71b7e6;
+     color: #fff;
+     border: none;
+     outline: none;
+     padding: 10px 20px;
+     border-radius: 30px;
+     cursor: pointer;
+     font-size: 18px;
+}
+
+ul li {
+     list-style: none;
+     background: #edeef0;
+     border-radius: 30px;
+     padding: 10px 20px;
+     margin-bottom: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.btn-edit {
+     background: #f39c12;
+     color: #fff;
+     padding: 5px 10px;
+     border-radius: 30px;
+     cursor: pointer;
+     margin-right: 10px;
+}
+
+.btn-delete {
+     background: #e74c3c;
+     color: #fff;
+     padding: 5px 10px;
+     border-radius: 30px;
+     cursor: pointer;
+}
